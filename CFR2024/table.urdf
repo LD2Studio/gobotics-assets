@@ -1,0 +1,19 @@
+<env name="Table CFR2024">
+	<link name="world">
+	
+		<visual name="">
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="./meshes/table.glb" />
+			</geometry>
+		</visual>
+
+		<collision name="">
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="./meshes/table_col.glb" />
+			</geometry>
+		</collision>
+
+	</link>
+</env>

@@ -1,0 +1,33 @@
+<standalone name="Fragile Plant">
+	<link name="base_link">
+		
+		<inertial>
+			<mass value="0.01"/>
+		</inertial>
+
+		<visual name="">
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="./meshes/fragile_plant.glb" />
+			</geometry>
+			<material name="">
+			
+			</material>
+		</visual>
+		
+		<collision name="">
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="./meshes/pot_col.glb" />
+			</geometry>
+		</collision>
+		
+		<collision name="">
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<geometry>
+				<mesh filename="./meshes/plant_col.glb" />
+			</geometry>
+		</collision>
+
+	</link>
+</standalone>
